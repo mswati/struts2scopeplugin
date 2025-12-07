@@ -2,7 +2,7 @@ package com.googlecode.scopeplugin;
 
 import com.googlecode.scopeplugin.annotations.In;
 import com.googlecode.scopeplugin.annotations.Out;
-import com.opensymphony.xwork2.Action;
+import org.apache.struts2.action.Action;
 
 public class FakeCookieAction implements Action {
 	private String cookieIn;

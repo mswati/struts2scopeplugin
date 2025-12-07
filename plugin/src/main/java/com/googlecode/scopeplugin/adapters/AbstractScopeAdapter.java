@@ -1,10 +1,10 @@
 package com.googlecode.scopeplugin.adapters;
 
+import org.apache.struts2.ActionContext;
 import org.apache.struts2.StrutsException;
 
 import com.googlecode.scopeplugin.ScopeAdapter;
 import com.googlecode.scopeplugin.ScopeType;
-import com.opensymphony.xwork2.ActionContext;
 
 public abstract class AbstractScopeAdapter implements ScopeAdapter {
 	private final ActionContext context;
