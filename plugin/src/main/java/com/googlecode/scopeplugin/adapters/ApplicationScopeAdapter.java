@@ -3,7 +3,7 @@ package com.googlecode.scopeplugin.adapters;
 import java.util.Map;
 
 import com.googlecode.scopeplugin.ScopeType;
-import com.opensymphony.xwork2.ActionContext;
+import org.apache.struts2.ActionContext;
 
 public class ApplicationScopeAdapter extends AbstractScopeAdapter {
 	final Map<String, Object> application;

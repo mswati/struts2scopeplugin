@@ -1,13 +1,13 @@
 package com.googlecode.scopeplugin.adapters;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import org.apache.struts2.ActionContext;
 import org.apache.struts2.ServletActionContext;
 
 import com.googlecode.scopeplugin.ScopeType;
-import com.opensymphony.xwork2.ActionContext;
 
 public class CookieScopeAdapter extends AbstractScopeAdapter {
 	private HttpServletRequest request;

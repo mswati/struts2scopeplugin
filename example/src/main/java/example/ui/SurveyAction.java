@@ -5,7 +5,7 @@ import com.googlecode.scopeplugin.annotations.Begin;
 import com.googlecode.scopeplugin.annotations.End;
 import com.googlecode.scopeplugin.annotations.In;
 import com.googlecode.scopeplugin.annotations.Out;
-import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.ActionSupport;
 
 
 /** */

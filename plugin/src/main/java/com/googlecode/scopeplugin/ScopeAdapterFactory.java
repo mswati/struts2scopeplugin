@@ -7,7 +7,7 @@ import com.googlecode.scopeplugin.adapters.FlashScopeAdapter;
 import com.googlecode.scopeplugin.adapters.RequestScopeAdapter;
 import com.googlecode.scopeplugin.adapters.SessionScopeAdapter;
 import com.googlecode.scopeplugin.adapters.UnspecifiedScopeAdapter;
-import com.opensymphony.xwork2.ActionContext;
+import org.apache.struts2.ActionContext;
 
 public abstract class ScopeAdapterFactory {
 	public static ScopeAdapter newInstance(ActionContext context, ScopeType type, String name) {

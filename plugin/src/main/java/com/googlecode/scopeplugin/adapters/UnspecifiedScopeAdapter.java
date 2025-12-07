@@ -1,7 +1,7 @@
 package com.googlecode.scopeplugin.adapters;
 
 import com.googlecode.scopeplugin.ScopeType;
-import com.opensymphony.xwork2.ActionContext;
+import org.apache.struts2.ActionContext;
 
 public class UnspecifiedScopeAdapter extends AbstractScopeAdapter {
 	private RequestScopeAdapter request;

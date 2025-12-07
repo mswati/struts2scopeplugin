@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.googlecode.scopeplugin.ScopeType;
-import com.opensymphony.xwork2.ActionContext;
+import org.apache.struts2.ActionContext;
 
 public class FlashScopeAdapter extends AbstractScopeAdapter {
 	final Map<String, Object> session;
